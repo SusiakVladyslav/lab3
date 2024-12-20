@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="1dc3224b-cd1b-4115-9a42-de401f335ee2" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/GlidedRose.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/GlidedRose.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Item.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,8 +16,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
