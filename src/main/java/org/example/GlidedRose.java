@@ -10,7 +10,6 @@ class GildedRose {
     public void updateQuality() {
         for (Item item : items) {
             if (item.name.equals("Backstage passes to a TAFKAL80ETC concert")) {
-                if (item.quality < 50) {
                     item.increaseQualityByOne();
 
                     if (item.sellIn < 11) {
@@ -20,7 +19,6 @@ class GildedRose {
                     if (item.sellIn < 6) {
                         item.increaseQualityByOne();
                     }
-                }
             } else if (!item.name.equals("Sulfuras, Hand of Ragnaros")) {
                     item.decreaseQualityByOne();
             }
