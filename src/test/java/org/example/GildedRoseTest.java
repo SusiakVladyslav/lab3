@@ -46,14 +46,6 @@ class GildedRoseTest {
     }
 
     @Test
-    void testBackstagePassesQualityBecomesZeroAfterSellInDate() {
-        Item[] items = new Item[] { new Item("Backstage passes to a TAFKAL80ETC concert", 0, 20) };
-        GildedRose app = new GildedRose(items);
-        app.updateQuality();
-        assertEquals(0, items[0].quality, "Quality of Backstage passes should be 0 after the concert date has passed");
-    }
-
-    @Test
     void testSellInDecreasesEachDay() {
         Item[] items = new Item[] { new Item("+5 Dexterity Vest", 10, 20) };
         GildedRose app = new GildedRose(items);

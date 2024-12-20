@@ -26,7 +26,7 @@ public class Item {
     }
 
     public void decreaseQualityByOne() {
-        if (quality > 50) {
+        if (quality < 50) {
             quality = quality - 1;
         }
     }
