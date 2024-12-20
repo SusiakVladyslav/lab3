@@ -8,6 +8,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/GlidedRose.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/GlidedRose.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/org/example/GildedRoseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/GildedRoseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/TexttestFixture.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/TexttestFixture.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +39,7 @@
   "keyToString": {
     "Application.TexttestFixture.executor": "Run",
     "JUnit.GildedRoseTest.executor": "Run",
+    "JUnit.GildedRoseTest.testConjuredItemDecreasesInQualityTwiceAsFast.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
@@ -53,6 +55,45 @@
     <key name="CreateTestDialog.RecentsKey">
       <recent name="org.example" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="GildedRoseTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Lab3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.GildedRoseTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GildedRoseTest.testConjuredItemDecreasesInQualityTwiceAsFast" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Lab3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.GildedRoseTest" />
+      <option name="METHOD_NAME" value="testConjuredItemDecreasesInQualityTwiceAsFast" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.GildedRoseTest" />
+        <item itemvalue="JUnit.GildedRoseTest.testConjuredItemDecreasesInQualityTwiceAsFast" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">

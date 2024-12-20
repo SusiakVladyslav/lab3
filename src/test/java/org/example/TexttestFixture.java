@@ -1,5 +1,9 @@
 package org.example;
 
+import org.junit.jupiter.api.Test;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
 public class TexttestFixture {
     public static void main(String[] args) {
         System.out.println("OMGHAI!");
@@ -33,5 +37,4 @@ public class TexttestFixture {
             app.updateQuality();
         }
     }
-
 }
